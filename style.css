@@ -69,12 +69,95 @@ p {
 .intro-page-header {
   border: 2px white solid;
   margin: 4rem 6rem;
-  max-width: 660px;
-  max-height: 360px;
+  width: 45%;
 }
 .intro-page-header h1 {
-  font-size: 80px;
+  font-size: 3.5rem;
   margin: 2.5rem;
+  overflow-x: hidden;
+  letter-spacing: 2px;
+  font-weight: 200;
 }
 
 /**************** ABOUT PAGE ****************/
+#about-page {
+  padding: 4rem 6rem;
+  height: 110vh;
+}
+.about-container {
+  display: flex;
+  position: relative;
+}
+.about-img-container {
+  position: absolute;
+  width: 65%;
+  height: 500px;
+  top: 0;
+  left: 0;
+}
+#test {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 12.4rem;
+  right: 1rem;
+}
+
+.about-text-container {
+  background: white;
+  max-width: 100%;
+  width: 590px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 4rem;
+  flex-wrap: nowrap;
+}
+.about-text-container h2 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 1.5rem;
+}
+.about-text-container p {
+  font-size: 1.2rem;
+}
+/******************* CREATION PAGE **********************/
+#creation-page {
+  padding: 0 6rem;
+}
+.creation-group-mobile {
+  display: none;
+}
+.creation-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.creation-group-desktop {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1rem;
+}
+.items {
+  height: 30rem;
+  display: flex;
+  align-items: end;
+}
+.group-item-desktop-1 {
+  background-image: url(/images/desktop/image-deep-earth.jpg);
+  background-size: cover;
+}
+.group-item-desktop-2 {
+  background-image: url(/images/desktop/image-deep-earth.jpg);
+  background-size: cover;
+}
+.group-item-desktop-3 {
+  background-image: url(/images/desktop/image-deep-earth.jpg);
+  background-size: cover;
+}
+.group-item-desktop-4 {
+  background-image: url(/images/desktop/image-deep-earth.jpg);
+  background-size: cover;
+}
