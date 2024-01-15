@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
 
-* {
+*,
+*::before,
+::after {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -18,3 +21,60 @@ a,
 p {
   font-family: "Alata", sans-serif;
 }
+/************** INTRO SECTION ***************/
+#intro-page {
+  background-image: url(/images/desktop/image-hero.jpg);
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+/* NAV BAR */
+#ham-nav {
+  display: none;
+}
+#desktopnav {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 6rem;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+.link {
+  padding: 0 1.4rem;
+  display: flex;
+  justify-content: center;
+}
+.link a {
+  position: relative;
+  text-decoration: none;
+  padding: 0;
+  color: white;
+}
+.link a:after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  height: 2px;
+  width: 0;
+  left: 0px;
+  bottom: -3px;
+}
+.link a:hover:after {
+  width: 100%;
+  transition: 0.5s;
+}
+/* INTRO PAGE */
+.intro-page-header {
+  border: 2px white solid;
+  margin: 4rem 6rem;
+  max-width: 660px;
+  max-height: 360px;
+}
+.intro-page-header h1 {
+  font-size: 80px;
+  margin: 2.5rem;
+}
+
+/**************** ABOUT PAGE ****************/
