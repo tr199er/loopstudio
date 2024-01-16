@@ -30,19 +30,26 @@
         <div class="ham-logo">
           <img src="/images/logo.svg" alt="" />
         </div>
-        <div class="hamburger-icon">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="hamburger-links container">
-          <ul class="hamburger-links">
-            <li class="ham"><a href="#about">About</a></li>
-            <li class="ham"><a href="#career">Career</a></li>
-            <li class="ham"><a href="#event">Event</a></li>
-            <li class="ham"><a href="#support">Support</a></li>
-            <li class="ham"><a href="#product">Product</a></li>
-          </ul>
+        <div class="ham-menu">
+          <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+            >&#9776;</span
+          >
+          <div id="myNav" class="overlay">
+            <div class="overlay-nav">
+              <div class="ham-logo">
+                <img src="/images/logo.svg" alt="" />
+              </div>
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+                >&times;</a
+              >
+            </div>
+            <div class="overlay-content">
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Clients</a>
+              <a href="#">Contact</a>
+            </div>
+          </div>
         </div>
       </nav>
       <!--------------- INTRO PAGE -------------->

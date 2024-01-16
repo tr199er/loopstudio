@@ -158,18 +158,22 @@ p {
 }
 .creation-group-desktop {
   color: white;
-  display: grid;
-  grid-template-columns: repeat(4, 2fr);
-  /* grid-template-rows: repeat(2, 1fr); */
-  gap: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1px;
 }
 .items {
   height: 30rem;
   display: flex;
   align-items: end;
+  width: 100%;
+  max-width: calc(25% - 10px);
+  box-sizing: border-box;
+  margin-bottom: 1rem;
 }
 .items h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 2.5rem;
   font-weight: 100;
   overflow-x: hidden;
