@@ -63,7 +63,7 @@ p {
 }
 .link a:hover:after {
   width: 100%;
-  transition: 0.5s ease-in-out;
+  transition: 0.35s ease-in-out;
 }
 /* INTRO PAGE */
 .intro-page-header {
@@ -144,29 +144,35 @@ p {
   font-size: 2rem;
 }
 .creation-header a {
+  border: 1px black solid;
   letter-spacing: 2px;
   text-decoration: none;
-  padding: 10px 25px;
-  background: black;
-  color: white;
-}
-.creation-header a:hover {
   padding: 9.3px 25px;
   background: white;
   color: black;
-  border: 1px black solid;
+}
+.creation-header a:hover {
+  background: black;
+  color: white;
+  padding: 10px 25px;
 }
 .creation-group-desktop {
   color: white;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 2fr);
+  /* grid-template-rows: repeat(2, 1fr); */
   gap: 1rem;
 }
 .items {
   height: 30rem;
   display: flex;
   align-items: end;
+}
+.items h3 {
+  font-size: 2rem;
+  padding: 2.5rem;
+  font-weight: 100;
+  overflow-x: hidden;
 }
 .items:hover {
   opacity: 40%;
@@ -215,6 +221,9 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
+}
+.icon {
+  padding-left: 1rem;
 }
 .f2 {
   display: flex;
