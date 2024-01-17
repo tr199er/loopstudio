@@ -60,7 +60,7 @@
   }
 
   #ham-nav {
-    padding: 4rem 3rem;
+    padding: 2.5rem 3rem;
     display: flex;
     justify-content: space-between;
   }
@@ -72,29 +72,39 @@
     z-index: 1;
     top: 0;
     left: 0;
-    padding: 3rem 3.5rem;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0);
     overflow-x: hidden;
     transition: 0.5s;
   }
   .overlay-nav {
+    position: relative;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.1rem 3rem;
   }
-
+  .overlay-nav img {
+    width: 10rem;
+    height: 1.8rem;
+  }
   .overlay-content {
     position: relative;
-    top: 25%;
+    top: 10%;
     width: 100%;
-    text-align: center;
+    text-align: left;
     margin-top: 30px;
   }
 
   .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
-    color: #818181;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    color: #f1f1f1;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding: 0 0 1.5rem 3rem;
     display: block;
     transition: 0.3s;
   }
@@ -105,10 +115,123 @@
   }
 
   .overlay .closebtn {
+    font-size: 63px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .intro-page-header {
+    margin: 3.5rem 3rem;
+    width: 80%;
+  }
+  .intro-page-header h1 {
+    font-size: 2.6rem;
+    margin: 2.3rem;
+    letter-spacing: 1.5px;
+  }
+  #about-page {
+    padding: 3.5rem 3rem;
+    height: auto;
+  }
+  .about-container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .about-img-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  #test {
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+  }
+  .about-text-container {
+    width: auto;
+    padding: 0;
+    text-align: center;
+  }
+  .about-text-container h2 {
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    word-spacing: 4px;
+    font-weight: 400;
+  }
+  .about-text-container p {
+    font-size: 1rem;
+    overflow-x: hidden;
+  }
+  #creation-page {
+    padding: 2rem 3rem;
+  }
+  .creation-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .creation-header a {
     position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
+    bottom: 0;
+  }
+  .creation-group-desktop {
+    display: none;
+  }
+  .creation-group-mobile {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+  }
+  .group-item-mobile-1 {
+    background-image: url(/images/mobile/image-deep-earth.jpg);
+    background-size: cover;
+  }
+  .group-item-mobile-2 {
+    background-image: url(/images/mobile/image-night-arcade.jpg);
+    background-size: cover;
+  }
+  .group-item-mobile-3 {
+    background-image: url(/images/mobile/image-soccer-team.jpg);
+    background-size: cover;
+  }
+  .group-item-mobile-4 {
+    background-image: url(/images/mobile/image-grid.jpg);
+    background-size: cover;
+  }
+  .group-item-mobile-5 {
+    background-image: url(/images/mobile/image-from-above.jpg);
+    background-size: cover;
+  }
+  .group-item-mobile-6 {
+    background-image: url(/images/mobile/image-pocket-borealis.jpg);
+    background-size: cover;
+  }
+  .group-item-mobile-7 {
+    background-image: url(/images/mobile/image-curiosity.jpg);
+    background-size: cover;
+  }
+  .group-item-mobile-8 {
+    background-image: url(/images/mobile/image-fisheye.jpg);
+    background-size: cover;
+  }
+  .items-mob {
+    width: 100%;
+    height: auto;
+  }
+  footer {
+    padding: 2rem 4.5rem;
+  }
+  .f-logo img {
+    width: 7.5rem;
+  }
+  .fot-l {
+    padding: 0 1.5rem 0 0;
+  }
+  .fot-l a {
+    font-size: 0.8rem;
+  }
+  .f-text p {
+    font-size: 0.9rem;
   }
 }
 @media screen and (max-width: 480px) {
