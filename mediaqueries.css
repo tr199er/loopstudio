@@ -64,6 +64,13 @@
     display: flex;
     justify-content: space-between;
   }
+  .ham-logo {
+    display: flex;
+    align-items: center;
+  }
+  .ham-logo img {
+    width: 10rem;
+  }
 
   .overlay {
     height: 100%;
@@ -270,6 +277,34 @@
   }
 }
 @media screen and (max-width: 480px) {
+  .intro-page-header {
+    margin: 3rem 2rem;
+    width: 80%;
+  }
+  .intro-page-header h1 {
+    font-size: 2rem;
+    margin: 2rem;
+    letter-spacing: 1.2px;
+  }
+  .ham-logo img {
+    width: 8.5rem;
+  }
+  .overlay-nav img {
+    width: 8.5rem;
+    height: 1.4rem;
+  }
+  #about-page {
+    padding: 3rem 2rem;
+  }
+  .about-text-container h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    margin-bottom: 1.3rem;
+  }
+  .about-text-container p {
+    font-size: 0.9rem;
+  }
 }
 @media screen and (max-width: 365px) {
 }
