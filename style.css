@@ -27,6 +27,7 @@ p {
   background-size: cover;
   height: 611px;
   color: white;
+  padding: 0 6rem;
 }
 /* NAV BAR */
 #ham-nav {
@@ -35,7 +36,7 @@ p {
 #desktopnav {
   display: flex;
   justify-content: space-between;
-  padding: 4rem 6rem;
+  padding: 4rem 0;
 }
 .nav-links {
   list-style: none;
@@ -68,7 +69,7 @@ p {
 /* INTRO PAGE */
 .intro-page-header {
   border: 2px white solid;
-  margin: 4rem 6rem;
+  margin: 4rem 0;
   width: 45%;
 }
 .intro-page-header h1 {

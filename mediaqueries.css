@@ -1,8 +1,11 @@
 @media screen and (max-width: 1200px) {
 }
 @media screen and (max-width: 980px) {
+  #intro-page {
+    padding: 0 4.5rem;
+  }
   #desktopnav {
-    padding: 3.5rem 4.5rem;
+    padding: 3.5rem 0;
   }
   .logo-container img {
     width: 7rem;
@@ -11,7 +14,7 @@
     padding: 0 0.8rem;
   }
   .intro-page-header {
-    margin: 3.5rem 4.5rem;
+    margin: 3.5rem 0;
   }
   .intro-page-header h1 {
     font-size: 2.6rem;
@@ -60,13 +63,14 @@
     background-size: cover;
     height: 730px;
     color: white;
+    padding: 0 3rem;
   }
   #desktopnav {
     display: none;
   }
 
   #ham-nav {
-    padding: 2.5rem 3rem;
+    padding: 2.5rem 0;
     display: flex;
     justify-content: space-between;
   }
@@ -136,12 +140,12 @@
   }
 
   .intro-page-header {
-    margin: 3.5rem 3rem;
-    width: 80%;
+    margin: 3.5rem 0;
+    width: 100%;
   }
   .intro-page-header h1 {
-    font-size: 2.6rem;
-    margin: 2.3rem;
+    font-size: 3rem;
+    margin: 1.5rem;
     letter-spacing: 1.5px;
   }
   #about-page {
@@ -285,9 +289,12 @@
   }
 }
 @media screen and (max-width: 480px) {
+  #intro-page {
+    padding: 0 2rem;
+  }
   .intro-page-header {
-    margin: 7rem 2rem;
-    width: 80%;
+    margin: 7rem 0;
+    width: 100%;
   }
   .intro-page-header h1 {
     font-size: 2rem;
