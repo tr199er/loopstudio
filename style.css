@@ -70,11 +70,11 @@ p {
 .intro-page-header {
   border: 2px white solid;
   margin: 4rem 0;
-  width: 45%;
+  width: 48%;
 }
 .intro-page-header h1 {
   font-size: 3.5rem;
-  margin: 2.5rem;
+  margin: 2.8rem;
   overflow-x: hidden;
   letter-spacing: 2px;
   font-weight: 200;
