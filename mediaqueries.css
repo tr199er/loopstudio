@@ -195,7 +195,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
   .group-item-mobile-1 {
     background-image: url(/images/mobile/image-deep-earth.jpg);
@@ -310,6 +310,9 @@
   }
   .creation-header h2 {
     font-size: 1.6rem;
+  }
+  .creation-group-mobile {
+    margin-bottom: 2rem;
   }
   .items-mob h3 {
     font-size: 1.4rem;
