@@ -55,6 +55,12 @@
 }
 
 @media screen and (max-width: 768px) {
+  #intro-page {
+    background-image: url(/images/mobile/image-hero.jpg);
+    background-size: cover;
+    height: 611px;
+    color: white;
+  }
   #desktopnav {
     display: none;
   }
