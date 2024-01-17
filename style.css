@@ -229,18 +229,22 @@ footer {
   display: flex;
   margin-bottom: 1rem;
   flex-direction: column;
-}
-.icon {
-  padding-left: 1rem;
-}
-.f2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  gap: 0.8rem;
 }
 .fot-links {
   display: flex;
 }
 .fot-l {
   padding: 0 2.5rem 0 0;
+}
+
+.f2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: end;
+}
+
+.icon {
+  padding-left: 1rem;
 }
