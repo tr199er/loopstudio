@@ -88,6 +88,7 @@ p {
   display: flex;
   position: relative;
 }
+
 .about-img-container {
   position: absolute;
   width: 65%;
