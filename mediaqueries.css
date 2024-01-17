@@ -137,9 +137,7 @@
     flex-direction: column;
     gap: 3rem;
   }
-  .about-img-mobile {
-    display: block;
-  }
+
   .about-img-container {
     position: relative;
     width: 100%;
